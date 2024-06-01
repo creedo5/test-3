@@ -62,12 +62,12 @@
       }
     ]
   },
-  "bugs": "https://github.com/krbz999/foundryvtt-items-with-spells-5e/issues",
-  "changelog": "https://github.com/krbz999/foundryvtt-items-with-spells-5e/releases",
+  "bugs": "https://github.com/creedo5/test-3/issues",
+  "changelog": "https://github.com/creedo5/test-3/releases",
   "download": "AUTOMATIC",
-  "manifest": "https://github.com/krbz999/foundryvtt-items-with-spells-5e/releases/latest/download/module.json",
-  "readme": "https://raw.githubusercontent.com/krbz999/foundryvtt-items-with-spells-5e/main/README.md",
-  "url": "https://github.com/krbz999/foundryvtt-items-with-spells-5e",
+  "manifest": "https://github.com/creedo5/test-3/releases/latest/download/module.json",
+  "readme": "https://raw.githubusercontent.com/creedo5/test-3/main/README.md",
+  "url": "https://github.com/creedo5/test-3",
   "flags": {
     "fvttdevleague": {
       "package-jam": 2022

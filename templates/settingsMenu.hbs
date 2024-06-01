@@ -1,0 +1,12 @@
+<form>
+  <p class="note">{{localize "IWS.SETTINGS.ITEM_EXCLUSION.HINT"}}</p>
+  {{#each types}}
+  <div class="form-group">
+    <label for="items-with-spells-setting-{{value}}">{{label}}</label>
+    <div class="form-fields">
+      <input type="checkbox" name="{{value}}" id="items-with-spells-setting-{{value}}" {{checked checked}}>
+    </div>
+  </div>
+  {{/each}}
+  <button type="submit"><i class="fa-solid fa-save"></i> {{localize "Save"}}</button>
+</form>

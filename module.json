@@ -1,0 +1,76 @@
+{
+  "id": "items-with-spells-5e",
+  "title": "Items with Spells DnD5e",
+  "description": "A module that allows spells to be attached to Items, Features, etc.",
+  "version": "AUTOMATIC",
+  "authors": [
+    {
+      "name": "Andrew Krigline",
+      "discord": "Calego#0914",
+      "url": "https://github.com/ElfFriend-DnD",
+      "patreon": "https://www.patreon.com/ElfFriend_DnD",
+      "ko-fi": "https://ko-fi.com/elffriend"
+    },
+    {
+      "name": "Zhell",
+      "discord": "zhell9201",
+      "url": "https://github.com/krbz999",
+      "patreon": "https://www.patreon.com/zhell",
+      "ko-fi": "https://ko-fi.com/zhell"
+    }
+  ],
+  "esmodules": [
+    "scripts/items-with-spells-5e.js"
+  ],
+  "styles": [
+    "styles/items-with-spells-5e.css"
+  ],
+  "compatibility": {
+    "minimum": 11,
+    "maximum": 11,
+    "verified": 11
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.4.0",
+          "maximum": "3.2.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "compatibility": {
+          "minimum": "1.12.7.1"
+        }
+      }
+    ]
+  },
+  "bugs": "https://github.com/krbz999/foundryvtt-items-with-spells-5e/issues",
+  "changelog": "https://github.com/krbz999/foundryvtt-items-with-spells-5e/releases",
+  "download": "AUTOMATIC",
+  "manifest": "https://github.com/krbz999/foundryvtt-items-with-spells-5e/releases/latest/download/module.json",
+  "readme": "https://raw.githubusercontent.com/krbz999/foundryvtt-items-with-spells-5e/main/README.md",
+  "url": "https://github.com/krbz999/foundryvtt-items-with-spells-5e",
+  "flags": {
+    "fvttdevleague": {
+      "package-jam": 2022
+    }
+  }
+}
